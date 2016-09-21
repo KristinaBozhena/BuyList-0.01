@@ -8,22 +8,94 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-<div class="bl-background">
-    <div class="bl-bought">
-        <div class="bl-title">Залишилося</div>
-        <div class="bl-title">Куплене</div>
-    </div>
-    <div class="bl-list">
-        <div class="bl-row">
-            <div class="bl-product">
-                Помідори
+<div class="bl-container">
+    <div class="bl-background">
+        <div class="bl-bought">
+            <div class="bl-title">Залишилося</div>
+            <div class="bl-title-list">
+                <div class="bl-not-bought">
+                    <span class="bl-not-bought-list">
+                        <span class="bl-name-prod">Бургер</span>
+                        <span class="bl-count-list">1</span>
+                    </span>
+                    <span class="bl-not-bought-list">
+                        <span class="bl-name-prod">Картопля Фрі</span>
+                        <span class="bl-count-list">2</span>
+                    </span>
+                    <span class="bl-not-bought-list">
+                        <span class="bl-name-prod">Бурітто</span>
+                        <span class="bl-count-list">5</span>
+                    </span>
+                </div>
             </div>
-            <div class="bl-count">
-                <span class="bl-label">3</span>
-                <button class="bl-plus">+</button>
+            <div class="bl-title">Куплено</div>
+            <div class="bl-title-list">
+                <span class="bl-not-bought-list">
+                        <span class="bl-name-prod-bought">Піца</span>
+                        <span class="bl-count-list-bought">3</span>
+                </span></div>
+        </div>
+        <div class="bl-list">
+            <div class="bl-new-product">
+                 <button class="bl-add-product">Додати</button>
+                    <input type="text" placeholder="Назва товару">
+                   
+                </div>
+            <div class="bl-row">
+                <div class="bl-product">
+                    Бургер
+                </div>
+                <div class="bl-count">
+                    <button class="bl-minus">-</button>
+                    <span class="bl-label">1</span>
+                    <button class="bl-plus">+</button>
+                </div>
+                <div class="bl-buttons">
+                    <button class="bl-delete">х</button>
+                    <button class="bl-buy">Куплено</button>
+                </div>
             </div>
-            <div class="bl-buttons">
-                [Куплене] [x]
+            
+            <div class="bl-row">    
+                <div class="bl-product">
+                    Картопля Фрі
+                </div>
+                <div class="bl-count">
+                    <button class="bl-minus">-</button>
+                    <span class="bl-label">2</span>
+                    <button class="bl-plus">+</button>
+                </div>
+                <div class="bl-buttons">
+                    <button class="bl-delete">х</button>
+                    <button class="bl-buy">Куплено</button>
+                </div>
+            </div>
+                
+            <div class="bl-row">    
+                <div class="bl-product">
+                    Бурітто
+                </div>
+                <div class="bl-count">
+                    <button class="bl-minus">-</button>
+                    <span class="bl-label">5</span>
+                    <button class="bl-plus">+</button>
+                </div>
+                <div class="bl-buttons">
+                    <button class="bl-delete">х</button>
+                    <button class="bl-buy">Куплено</button>
+                </div>
+            </div>
+            
+            <div class="bl-row">    
+                <div class="bl-product-bought">
+                    Піца
+                </div>
+                <div class="bl-count">
+                    <span class="bl-label-bought">3</span>
+                </div>
+                <div class="bl-buttons">
+                    <button class="bl-buy-bought">Не куплено</button>
+                </div>
             </div>
         </div>
     </div>
