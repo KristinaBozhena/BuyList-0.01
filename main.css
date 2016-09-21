@@ -1,0 +1,31 @@
+.bl-background {
+    background: #cdcbcb;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.bl-list {
+    background: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.bl-bought {
+    background: white;
+    float: right;
+    overflow: hidden;
+    margin-left: 10px;
+
+}
+
+/*Кнопки*/
+.bl-minus {
+    background: #FF0000;
+}
+
+.bl-label {
+    background: #cdcbcb;
+}
+.bl-plus {
+    background: #04a613;
+}
